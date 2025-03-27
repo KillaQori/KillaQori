@@ -1,0 +1,36 @@
+.principalPortafolio {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portafolio{
+    background-color: rgba(147, 110, 0, 0.194);
+    width: 800px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(174, 130, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.item:hover{
+    overflow: hidden;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+p:hover{
+    color: rgb(174, 130, 0);
+    font-size: 25px;
+}

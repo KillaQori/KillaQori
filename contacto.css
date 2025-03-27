@@ -1,0 +1,14 @@
+.principalcontacto {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto{
+    width: 500px;
+    height: 380px;
+    border: 1px dotted rgb(139, 90, 57);
+    text-align: start;
+}
